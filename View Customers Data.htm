@@ -1,0 +1,576 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0081)https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCustomersData -->
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+ 
+<META http-equiv="X-UA-Compatible" content="IE=edge"> 
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<META name="apple-mobile-web-app-capable" content="yes">  
+<META http-equiv="X-UA-Compatible" content="IE=edge">  
+<META name="apple-mobile-web-app-capable" content="yes"> 
+<META http-equiv="Cache-control" content="no-cache"> 
+<META http-equiv="Cache-control" content="no-store"> 
+<META http-equiv="Pragma" content="no-cache"> <LINK href="resources/static/images/login/favicon.ico" 
+rel="shortcut icon"> <LINK href="View%20Customers%20Data_files/citi-bootstrap.css" 
+rel="stylesheet"> <LINK href="View%20Customers%20Data_files/citi-customstyles.css" 
+rel="stylesheet"> <LINK href="View%20Customers%20Data_files/font-awesome.min.css" 
+rel="stylesheet"> <LINK href="View%20Customers%20Data_files/jquery.dataTables.css" 
+rel="stylesheet"> <LINK href="View%20Customers%20Data_files/dataTables.tableTools.css" 
+rel="stylesheet"> <LINK href="View%20Customers%20Data_files/jquery.datetimepicker.css" 
+rel="stylesheet"> <LINK href="resources/static/css/jqtree.css" rel="stylesheet"> 
+<SCRIPT src="View%20Customers%20Data_files/jquery.min.js"></SCRIPT>
+ 
+<SCRIPT src="View%20Customers%20Data_files/bootstrap.min.js"></SCRIPT>
+   
+<SCRIPT src="View%20Customers%20Data_files/jquery-2.1.4.js"></SCRIPT>
+ 
+<SCRIPT src="View%20Customers%20Data_files/jquery.dataTables.js"></SCRIPT>
+ 
+<SCRIPT src="View%20Customers%20Data_files/dataTables.tableTools.js"></SCRIPT>
+ 
+<SCRIPT src=""></SCRIPT>
+ <!-- <script src="resources/static/js/jquery.js"></script> --> 
+<SCRIPT src="View%20Customers%20Data_files/jquery.datetimepicker.full.js"></SCRIPT>
+ 
+<SCRIPT src="View%20Customers%20Data_files/bootstrap-switch.js"></SCRIPT>
+ <LINK href="View%20Customers%20Data_files/bootstrap-switch.css" rel="stylesheet"> 
+<LINK href="View%20Customers%20Data_files/bootstrap-switch.min.css" rel="stylesheet"> 
+<SCRIPT src="View%20Customers%20Data_files/bootstrap-switch.js"></SCRIPT>
+ <LINK href="View%20Customers%20Data_files/bootstrap-switch.css" rel="stylesheet"> 
+<LINK href="View%20Customers%20Data_files/bootstrap-switch.min.css" rel="stylesheet"> <!--  Picklist files -START --> 
+<LINK href="View%20Customers%20Data_files/jquery-picklist.css" rel="stylesheet"> 
+<LINK href="View%20Customers%20Data_files/jquery-ui.css" rel="stylesheet"> 
+<SCRIPT src="View%20Customers%20Data_files/jquery.ui.widget.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="View%20Customers%20Data_files/jquery-picklist.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="View%20Customers%20Data_files/common_csv_export.js"></SCRIPT>
+ <!-- <script src="resources/static/js/sorting_numeric_comma.js"></script> --> <!--  Picklist files -END --> 
+<SCRIPT src="View%20Customers%20Data_files/common_alert_log.js"></SCRIPT>
+ <TITLE>View Customers Data</TITLE> 
+<META name="GENERATOR" content="MSHTML 11.00.9600.19230"></HEAD> 
+<BODY>
+<DIV class="header">
+<SCRIPT src="View%20Customers%20Data_files/common.js"></SCRIPT>
+ <LINK href="View%20Customers%20Data_files/citi-customstyles.css" rel="stylesheet"> <!-- CITI Top Navigation Bar  START--> 
+<DIV class="utility">
+<DIV class="navbar-inner">
+<DIV class="utility navbar">
+<DIV class="navbar-inner">
+<UL class="nav pull-right util"><!-- <ul class="nav pull-right util"> -->			 
+  <LI class="dropdown"><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCustomersData#"> 
+  Help <SPAN class="caret"></SPAN></A>
+  <DIV class="dropdown-content" style="z-index: 9999999;"><!-- Dashboard Help Content Links - Start -->
+  																									 <!-- Dashboard Help Content Links - End -->					 <!-- Liquidity Monitoring Help Content Links - Start -->
+  															 <!-- Liquidity Management Help Content Links - End -->					 <!-- Reconciliation Dashboard Help Content Links - Start -->
+  															 <!-- Reconciliation Dashboard Help Content Links - End -->
+					 <!-- Payments Processing Help Content Links - Start -->															 <!-- Manual Payments Routing Funds Help Content Links - Start -->
+  										 <!-- Manual Payments Routing Help Content Links - Start -->					
+  					 <!-- Manually Manage Account Funds Help Content Links - Start -->					
+  					 <!-- Manually Manage Account Funds Help Content Links - End -->					
+					 <!-- Customer Data Help Content Links - Start -->											 <A class="popup" 
+  href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/helpContent#viewcustomersdata"> 
+  View Customers Data</A><A class="popup" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/helpContent#createcustomerdata"> 
+  Create Customer Data</A><A class="popup" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/helpContent#viewcustomerdata"> 
+  View Customer Data</A><A class="popup" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/helpContent#editcustomerdata"> 
+  Edit Customer Data</A><A class="popup" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/helpContent#deletecustomerdata"> 
+  Delete Customer Data</A><A class="popup" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/helpContent#approvecustomerdata"> 
+  Approve Customer Data</A><A class="popup" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/helpContent#bulkuploadcustomerdata"> 
+  Bulk Upload Customer Data</A><!-- Customer Data Help Content Links - End -->
+  					 <!-- Payments Processing Help Content Links - End -->					 <!-- User Administration Help Content Links - Start -->
+  					 <!-- Configure User Help Content Links - Start -->										 <!-- Configure User Help Content Links - Start -->
+  					 <!-- Configure Roles Help Content Links - Start -->										 <!-- Configure Roles Help Content Links - End -->
+  										 <!-- Maker Checker Help Content Links - Start -->										 <!-- Maker Checker Help Content Links - Start -->
+  					 <!-- User Administration Help Content Links - End -->					 <!--Configure Components Modules Help Content Links - Start -->
+  					 <!-- Key Management Help Content Links - Start -->										 <!-- Key Management Help Content Links - End -->
+  					 <!-- Listeners Help Content Links - Start -->										 <!-- Listeners Help Content Links - End -->
+  					 <!-- Message Format Help Content Links - Start -->										 <!-- Message Format Help Content Links - End -->
+  					 <!-- Message Transformation Help Content Topics - Start -->										 <!-- Message Transformation Help Content Links - End -->
+  					 <!-- Rules Generator Help Content Links - Start -->										 <!-- Rules Generator Help Content Links - End -->
+  					 <!-- Sequencer Help Content Links - Start -->										 <!-- Sequencer Help Content Links - End -->
+  					 <!-- Signon Configurator Help Content Links - Start -->										 <!--Signon Configurator Help Content Links - End -->
+  					 <!--Configure Components Modules Help Content Links - End -->					 <!-- Catalog Help Content Links - Start -->
+  										 <!-- Catalog Help Content Links - End -->				 </DIV></LI>
+  <LI id="global-search">
+  <DIV class="search-inner">
+  <FORM name="search_form" id="search-form" action="http://www.citigroup.net/CITINETWebApp/csearch/citinetuiSearch" 
+  method="get" 
+target="_blank"><INPUT name="search-field" id="search-field" type="text" placeholder="Citigroup.net" value="" autocomplete="off"> 
+<INPUT type="submit" value="GO">					 </FORM></DIV></LI></UL></DIV>
+<DIV class="utility-shadow"></DIV></DIV></DIV></DIV><!-- CITI Top Navigation Bar  END --> <!-- CITI Header  START--> 
+<DIV id="citi-header"><A title="Citigroup.net" class="logo pull-right" href="http://www.citigroup.net/" 
+target="_blank"><IMG src="View%20Customers%20Data_files/u9.png">	 </A>	 
+<DIV class="app_logo">
+<H1>			TransformX		 </H1></DIV></DIV><!-- CITI Header  END-->	 
+<SCRIPT>
+		if (getCookie("sessionStorageFlag") == "0") {
+			document.cookie = "sessionStorageFlag=1; path=/";
+			window.name = getCookie("sessionUniqueId");
+			//		sessionStorage.setItem("sessionUniqueId",getCookie("sessionUniqueId"));
+			//alert("sessionUniqueId created."); 
+		}
+		// else if(sessionStorage.getItem("sessionUniqueId") != getCookie("sessionUniqueId") ){
+		else if (window.name != getCookie("sessionUniqueId")) {
+			// alert("sessionUniqueId not match.");
+			// alert("window.name : " + window.name);
+			// alert(" getCookie(sessionUniqueId) : " +  getCookie("sessionUniqueId"));
+			window.location.replace("duplicatetab");
+		}
+		
+		
+		
+
+		//if(sessionStorage.getItem("sessionUniqueId") != null && sessionStorage.getItem("sessionUniqueId") == getCookie("sessionUniqueId") ){
+		if (window.name != null && window.name == getCookie("sessionUniqueId")) {
+			//alert("sessionUniqueId matched."); 
+		}
+
+		function getCookie(cname) {
+			var name = cname + "=";
+			var decodedCookie = decodeURIComponent(document.cookie);
+			var ca = decodedCookie.split(';');
+			for (var i = 0; i < ca.length; i++) {
+				var c = ca[i];
+				while (c.charAt(0) == ' ') {
+					c = c.substring(1);
+				}
+				if (c.indexOf(name) == 0) {
+					return c.substring(name.length, c.length);
+				}
+			}
+			return "";
+		}
+	</SCRIPT>
+ <!-- CITI Main Navigation  START--> 
+<DIV class="navbar" id="main-nav">
+<DIV class="navbar-inner">
+<UL class="nav pull-right">
+  <LI class="dropdown"><A class="authentication dropdown-toggle" href="javascript:anchorScr()"><I 
+  class="icon-lock icon-white"></I> ALFONSO RAFAEL TLAPANCO VACA <SPAN class="caret"></SPAN>
+  			 </A></LI></UL>
+<UL class="nav nav_Drop headerNav_width">
+  <LI><A title="Dashboard" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCustomersData#">Dashboard</A>
+  <UL>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/managementDashboard">Payment 
+    Operations Snapshot</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/liquidityDashboard">Liquidity 
+    Dashboard</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/applicationDashboard">Payment 
+    Status Dashboard</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/monitorStatus">Payments 
+    Operations Monitor</A></LI></UL></LI>
+  <LI><A title="Liquidity Monitoring" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCustomersData#">Liquidity 
+  Monitoring</A>
+  <UL>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/configureLMParameters">Configure 
+    Parameters</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewMetrics">View 
+    Metrics</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewTransactions">View 
+    LM Transactions</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/manualExceptionQueue">Transaction 
+    Throttling Queue</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/monitorPosition">Liquidity 
+    Position</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewHistoryLiquidity">Historical 
+    Liquidity Position</A></LI></UL></LI><!-- Reconciliation  -->							 
+  <LI><A title="Reconciliation" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCustomersData#">Reconciliation</A>
+  <UL>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/anr/" target="_blank">Dashboard</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/reconParameterSetup">Configure 
+    Parameter</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/accountingDashboard">Accounting 
+    Dashboard</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/reconciliationDashboard">Reconciliation 
+    Dashboard</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/accPmtIn">Accounting 
+    Incoming Payment</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/accPmtOut">Accounting 
+    Outgoing Payment</A></LI></UL></LI><!--  <li class=""><a href="#" title="Reporting">Reporting</a></li>  -->
+  							 
+  <LI><A title="Payments Processing" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCustomersData#">Payments 
+  Processing</A>
+  <UL>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/processPayment">Create 
+    Payments</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewPaymentsList">View 
+    Payments</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewNewPayments">Pending 
+    Payments to Approve</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewPaymentException">View 
+    Exception Payments</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/manageSPEIAccountFund">Manually 
+    Manage Account Funds</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCustomersData">Customer 
+    Data Check</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewS016CustomersData">S016 
+    Customer Data Check</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/createFile">Create 
+    AML File</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/manualPaymentsRouting">Manual 
+    Payments Routing</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/preRegisterStatus">TeOS 
+    Request Status</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewDelayedReturnIncomingPayments">Delayed 
+    Return Incoming Payments</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/regenerateAmlFile">Regenerate 
+    AML File</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/requeue">COMSA 
+    Re-Queue</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewHistory">History 
+    Transaction</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/cdaContingency">CDA 
+    Contingency File</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewAmlFiles">AML 
+    File</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewBankCatalogs">Bank 
+    Catalogs File</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/incomingFirstTransfer">Incoming 
+    Transaction - First Transfer</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/cda">CDA 
+    Re-Queue</A></LI></UL></LI>
+  <LI><A title="User Administration" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCustomersData#">User 
+  Administration</A>
+  <UL>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewUsers">Configure 
+    Users</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewRoles">Configure 
+    Roles</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewMakerChecker">Maker 
+    / Checker</A></LI></UL></LI>
+  <LI><A title="Configure Components" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCustomersData#">Configure	Components</A>
+  <UL>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCertificates">Key 
+    Management</A></LI><!--  <li><a href="#">Liquidity Management</a></li>  -->
+    													 
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewListeners">Listeners</A></LI><!-- <li><a href="#">Logging</a></li> -->
+    													 
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewMessageFormatter">Message 
+    Formatter</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewTemplates">Message 
+    Transformation</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewSequencers">Sequencer</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewSignonConfigurator">Sign-On 
+    Configurator</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCdaConfig">CDA 
+    Configuration</A></LI><!-- Scheduler -->													 
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewSchedulers">Scheduler</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/fileConfig">File 
+    Configuration</A></LI>
+    <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewMstConfig">Global 
+    Configuration</A></LI></UL></LI><!--Catalog  -->							 
+  <LI><A title="Catalog" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/paymentTypeCatalogs">Catalogs</A></LI>
+  <LI><A title="LogPath" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewLogPath">Log 
+  Path</A></LI><!-- CRS -->									 <!--Monitor  -->							 
+  <LI><A title="Monitor" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCustomersData#">Monitor</A>
+  <UL>
+    <LI><A title="CRS" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/urlDiferent">CDA 
+    Monitor</A></LI>
+    <LI><A title="Citidocs" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/citidocs">Citidocs 
+    Monitor</A></LI>
+    <LI><A title="Factoraje" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/factoraje">Factoraje 
+    Monitor</A></LI></UL></LI></UL></DIV></DIV>
+<DIV id="nav-logout-wrap">
+<DIV id="test">
+<P class="pull-left img-logout-icon"></P>
+<UL class="nav-logout-dropdown">
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/dologout"><SPAN 
+  class="list-text">Sign Out</SPAN><BR><SPAN class="list-text-caption">Logout of 
+  this site.</SPAN>			 </A></LI></UL></DIV></DIV><!-- CITI Main Navigation  END--> 
+</DIV>
+<DIV id="body">
+<DIV id="sidebar">
+<UL class="nav nav-list">
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/createCustomerData">Create 
+  Customer Data</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCustomersData">View 
+  Or Edit Customer Data</A></LI>
+  <LI class="divider"></LI>
+  <LI class="nav-header">Payments Processing</LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/processPayment">Create 
+  Payments</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewPaymentsList">View 
+  Payments</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewNewPayments">Pending 
+  Payments to Approve</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewPaymentException">View 
+  Exception Payments</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/manageSPEIAccountFund">Manually 
+  Manage Account Funds</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCustomersData">Customer 
+  Data Check</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewS016CustomersData">S016 
+  Customer Data Check</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/createFile">Create 
+  AML File</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/manualPaymentsRouting">Manual 
+  Payments Routing</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/preRegisterStatus">TeOS 
+  Request Status</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewDelayedReturnIncomingPayments">Delayed 
+  Return Incoming Payments</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/regenerateAmlFile">Regenerate 
+  AML File</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/requeue">COMSA 
+  Re-Queue</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewHistory">History 
+  Transaction</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/cdaContingency">CDA 
+  Contingency File</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewAmlFiles">AML 
+  File</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewBankCatalogs">Bank 
+  Catalogs File</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/incomingFirstTransfer">Incoming 
+  Transaction - First Transfer</A></LI>
+  <LI><A href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/cda">CDA 
+  Re-Queue</A></LI></UL></DIV>
+<DIV class="main-content" id="content">
+<DIV class="renderAlert"></DIV>
+<DIV id="row-fluid">
+<SCRIPT src="View%20Customers%20Data_files/view_customer_data.js"></SCRIPT>
+ 
+<SCRIPT>
+	var isEditCustomerData = 'true'; 
+	var isDeleteCustomerData = 'true';
+	var isApproveCustomerData = 'true';
+	var numberOfRecordsUploaded = '';
+	var numberOfRecordsInserted = '';
+	var upload = '';
+	var ignoredConfigDetails = '';	
+	var action = '';
+</SCRIPT>
+ 
+<STYLE>
+button.DTTT_button,div.DTTT_button,a.DTTT_button {
+	position: absolute;
+	left: 105px !important;
+	top: -83px;
+	display: inline-block;
+	margin-right: 3px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	pading-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #999;
+	cursor: pointer;
+	*cursor: hand;
+	margin-left: 3px;
+	color: white !important;
+	line-height: 22px;
+	vertical-align: middle;
+	white-space: nowrap;
+	height: 22px;
+	width: 75px;
+}
+
+.rfcFielUploadModal{
+top:34% !important;
+left:52% !important;
+}
+</STYLE>
+ 
+<DIV class="span11 center-content">
+<DIV class="page-header">
+<H1>			View Or Edit Customer Data		 </H1></DIV>
+<TABLE class="row-fluid">
+  <TBODY>
+  <TR class="btn-toolbar pull-left">
+    <TD class="btn-group"><A class="btn btn-primary" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/createCustomerData"><I 
+      class="icon-plus"></I>&nbsp;Add Record</A>																	 </TD>
+    <TD>
+      <FORM name="uploadForm" id="command" action="uploadCustomerData" enctype="multipart/form-data" 
+      method="POST"><BUTTON class="btn btn-info btn-lg btn_space" type="button" 
+      data-target="#myModal" data-toggle="modal"><I 
+      class="icon-upload-alt"></I>&nbsp;								Bulk Upload						     </BUTTON>
+      																    				    				  				    				    				    					 
+      <DIV class="modal fade" id="myModal" role="dialog">
+      <DIV class="modal-dialog"><!-- Modal content-->							 
+      <DIV class="modal-content">
+      <DIV class="modal-header"><BUTTON class="close" onclick="document.location.reload();" 
+      type="button" data-dismiss="modal">×</BUTTON>									 
+      <H4 class="modal-title"><I class="icon-upload-alt"></I>&nbsp;
+      										Bulk Upload									 </H4>
+      <H5><BR><INPUT name="fielRfcUpdate" class="lm-checkbox" id="fielRfcUpdate" 
+      onclick="fileRfcUpd()" type="radio">									RFC/FIEL									 </H5>
+      <H5>										Select the file to Upload									 </H5></DIV>
+      <DIV 
+class="modal-body"><INPUT disabled="disabled" id="uploadFile" placeholder="Choose File" value="">
+      									 
+      <DIV align="right" class="fileUpload btn">										Select File
+										 <INPUT name="uploadFile" class="upload" id="fileName" onchange="checkCustomerDataName()" type="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+      									 </DIV></DIV>
+      <DIV class="modal-footer bulk-upload-text-align"><BUTTON class="btn btn-primary" 
+      onclick="UploadCustomerDataCheck()" type="button">										Upload
+      									 </BUTTON>									 <BUTTON class="btn btn-default" onclick="document.location.reload();" 
+      type="button" data-dismiss="modal">										Close									 </BUTTON>
+      								 </DIV></DIV></DIV></DIV></FORM></TD>
+    <TD>&nbsp;
+    <TD></TR></TBODY></TABLE>
+<DIV class="form-inline actions-toolbar table-bordered">
+<DIV class="space"></DIV>
+<FORM name="searchCustomerDataTransactions" id="customerDataConfig" action="/transformx-web/viewCustomersData" 
+method="GET">
+<DIV align="center" class="controls"><SELECT name="searchField1" id="searchField1"><OPTION 
+  value="select">Select</OPTION><OPTION value="CUST_ID">Customer 
+  Id</OPTION><OPTION value="CUST_NAME">Customer Name</OPTION><OPTION value="CUST_NO">Customer 
+  No</OPTION><OPTION value="CUST_TYPE">Customer Type</OPTION><OPTION value="CONST_DT">Date 
+  of Incorporation</OPTION><OPTION value="AC_NO">Account No</OPTION><OPTION 
+  value="DS_AC_NO">Banamex Account No</OPTION><OPTION 
+  value="RFC">RFC</OPTION><OPTION value="FIEL_CERT">FIEL 
+  Certificate</OPTION><OPTION value="FIEL_STATUS">FIEL Status</OPTION><OPTION 
+  value="FIEL_SETUP_DT">FIEL Setup Date</OPTION><OPTION 
+  value="FIEL_EXPIRE_DT">FIEL Expiry Date</OPTION><OPTION 
+  value="FIEL_MODIF_DT">Date of the Last Changes on the FIEL</OPTION><OPTION 
+  value="CSI">CSI</OPTION><OPTION value="MAKER_NAME">Maker Name</OPTION><OPTION 
+  value="MAKER_ID">MakerId</OPTION><OPTION value="CHECKER_NAME">Checker 
+  Name</OPTION><OPTION value="CHECKER_ID">Checker Id</OPTION><OPTION value="STATUS">Status</OPTION>
+  							 </SELECT>							&nbsp;								 <INPUT name="searchVal1" class="input-xlarge" id="searchVal1" type="text" maxlength="120">
+				 </DIV>
+<DIV class="space"></DIV>
+<DIV align="center" class="controls"><SELECT name="searchField2" id="searchField2"><OPTION 
+  value="select">Select</OPTION><OPTION value="CUST_ID">Customer 
+  Id</OPTION><OPTION value="CUST_NAME">Customer Name</OPTION><OPTION value="CUST_NO">Customer 
+  No</OPTION><OPTION value="CUST_TYPE">Customer Type</OPTION><OPTION value="CONST_DT">Date 
+  of Incorporation</OPTION><OPTION value="AC_NO">Account No</OPTION><OPTION 
+  value="DS_AC_NO">Banamex Account No</OPTION><OPTION 
+  value="RFC">RFC</OPTION><OPTION value="FIEL_CERT">FIEL 
+  Certificate</OPTION><OPTION value="FIEL_STATUS">FIEL Status</OPTION><OPTION 
+  value="FIEL_SETUP_DT">FIEL Setup Date</OPTION><OPTION 
+  value="FIEL_EXPIRE_DT">FIEL Expiry Date</OPTION><OPTION 
+  value="FIEL_MODIF_DT">Date of the Last Changes on the FIEL</OPTION><OPTION 
+  value="CSI">CSI</OPTION><OPTION value="MAKER_NAME">Maker Name</OPTION><OPTION 
+  value="MAKER_ID">MakerId</OPTION><OPTION value="CHECKER_NAME">Checker 
+  Name</OPTION><OPTION value="CHECKER_ID">Checker Id</OPTION><OPTION value="STATUS">Status</OPTION>
+  							 </SELECT>							&nbsp;								 <INPUT name="searchVal2" class="input-xlarge" id="searchVal2" type="text" maxlength="120">
+				 </DIV>
+<DIV class="space"></DIV>
+<DIV align="center" class="controls"><SELECT name="searchField3" id="searchField3"><OPTION 
+  value="select">Select</OPTION><OPTION value="CUST_ID">Customer 
+  Id</OPTION><OPTION value="CUST_NAME">Customer Name</OPTION><OPTION value="CUST_NO">Customer 
+  No</OPTION><OPTION value="CUST_TYPE">Customer Type</OPTION><OPTION value="CONST_DT">Date 
+  of Incorporation</OPTION><OPTION value="AC_NO">Account No</OPTION><OPTION 
+  value="DS_AC_NO">Banamex Account No</OPTION><OPTION 
+  value="RFC">RFC</OPTION><OPTION value="FIEL_CERT">FIEL 
+  Certificate</OPTION><OPTION value="FIEL_STATUS">FIEL Status</OPTION><OPTION 
+  value="FIEL_SETUP_DT">FIEL Setup Date</OPTION><OPTION 
+  value="FIEL_EXPIRE_DT">FIEL Expiry Date</OPTION><OPTION 
+  value="FIEL_MODIF_DT">Date of the Last Changes on the FIEL</OPTION><OPTION 
+  value="CSI">CSI</OPTION><OPTION value="MAKER_NAME">Maker Name</OPTION><OPTION 
+  value="MAKER_ID">MakerId</OPTION><OPTION value="CHECKER_NAME">Checker 
+  Name</OPTION><OPTION value="CHECKER_ID">Checker Id</OPTION><OPTION value="STATUS">Status</OPTION>
+  							 </SELECT>							&nbsp;								 <INPUT name="searchVal3" class="input-xlarge" id="searchVal3" type="text" maxlength="120">
+				 </DIV>
+<DIV class="space"></DIV>
+<DIV align="center"><BUTTON name="searchCustomerList" class="btn btn-primary" 
+id="searchCustomerList" onclick="searchCustomerListInv()" type="button">
+						Search Customer					 </BUTTON>					 <A class="btn" id="viewCustomersData" 
+href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCustomersData">&nbsp;Clear</A>
+				 </DIV>
+<DIV class="space"></DIV></FORM>
+<DIV class="alert alert-success">
+<DIV>Note:</DIV>
+<DIV>1. Status should be entered as either NEW or APPROVED in the search 
+box</DIV>
+<DIV>2. Date format should be in DD-MM-YYYY, Ex: 23-05-2017 format</DIV>
+<DIV>3. Customer Type should be entered as Entity or Individual in the search 
+box</DIV></DIV></DIV>
+<DIV class="space"></DIV>
+<TABLE class="row-fluid">
+  <TBODY>
+  <TR class="btn-toolbar pull-left">
+    <TD class="btn-group"></TD>
+    <TD></TD>
+    <TD><A class="btn" id="exportAllCustomersData" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/exportAllCustomersData"><I 
+      class="icon-download"></I>&nbsp;ExportAll</A> </TD><!-- swf enabler for chrome browser -->
+    			 
+    <TD>
+      <DIV id="swfenabler"></DIV></TD></TR></TBODY></TABLE>
+<DIV class="space"></DIV>
+<DIV class="space"></DIV>
+<DIV class="space"></DIV>
+<DIV class="space"></DIV>
+<DIV class="space"></DIV>
+<DIV class="space"></DIV>
+<DIV class="space"></DIV>
+<DIV>
+<TABLE class="table table-bordered table-striped" id="data-grid">
+  <THEAD>
+  <TR>
+    <TH><INPUT id="customerTypecheckboxID" type="checkbox" value=""></TH>
+    <TH class="norap">Customer Id</TH>
+    <TH class="norap">Source System</TH>
+    <TH class="norap">Target System</TH>
+    <TH class="norap">Customer Name</TH>
+    <TH class="norap">Customer No</TH>
+    <TH class="norap">Customer Type</TH>
+    <TH class="norap">Date of Incorporation</TH>
+    <TH class="norap">Account Type</TH>
+    <TH class="norap">Account No</TH>
+    <TH class="norap">Banamex Account No</TH>
+    <TH class="norap">RFC</TH>
+    <TH class="norap">Address</TH>
+    <TH class="norap">Postal Code</TH>
+    <TH class="norap">FIEL Certificate</TH>
+    <TH class="norap">FIEL Status</TH>
+    <TH class="norap">FIEL Setup Date</TH>
+    <TH class="norap">FIEL Expiry Date</TH>
+    <TH class="norap">Date of the Last Changes on the FIEL</TH>
+    <TH class="norap">CSI</TH>
+    <TH class="norap">Maker Id</TH>
+    <TH class="norap">Maker Name</TH>
+    <TH class="norap">Checker Id</TH>
+    <TH class="norap">Checker Name</TH>
+    <TH class="norap">Status</TH>
+    <TH class="text-align-center" colspan="3">Actions</TH><!-- <th class="norap">&nbsp;</th> -->
+    				 </TR></THEAD>
+  <TBODY></TBODY></TABLE>
+<DIV class="row-fluid actions-toolbar PFooter-wrap"></DIV>
+<FORM name="approveCustomerDataTransactions" id="customerDataConfig" action="approveCustomerDataTransactions" 
+method="POST"><INPUT class="btn btn-primary" id="approveBtn" type="button" value="Approve">
+				    <INPUT class="btn" id="rejectBtn" type="button" value="Reject"> 				   
+<BUTTON name="Refresh" class="btn btn-primary" onclick="window.location.reload()" 
+type="submit">					    Refresh                     </BUTTON>				    <INPUT name="bulkCustomerId" id="bulkCustomerId" type="hidden">
+				    <INPUT name="bulkStatus" id="bulkStatus" type="hidden">				    
+<INPUT name="bulkOperationType" id="bulkOperationType" type="hidden">				    
+<INPUT name="bulkMakerId" id="bulkMakerId" type="hidden">		     
+		 </FORM></DIV></DIV></DIV></DIV></DIV>
+<DIV class="footer">
+<DIV id="footer"><!-- Citi Footer -->	 
+<DIV class="navbar">
+<DIV class="navbar-inner"><A class="pull-right" href="https://paymentsgateway.uat.mexico.citigroup.net/transformx-web/viewCustomersData#">Back 
+to top</A>			 
+<DIV class="nav-collapse">
+<UL class="nav">
+  <LI><A href="http://www.citigroup.net/CITINETWebApp/" 
+  target="_blank">Citigroup.net</A></LI>
+  <LI><A href="http://www.citigroup.net/tos/" target="_blank">Terms &amp; 
+  Conditions</A></LI>
+  <LI><A href="http://www.citigroup.net/citigroup.net/newcitigroupdotnet/accessibility.html" 
+  target="_blank">Accessibility</A></LI></UL></DIV></DIV></DIV>
+<DIV id="copyright"><A href="http://www.citigroup.net/CITINETWebApp/" target="_blank"><IMG 
+src="View%20Customers%20Data_files/footer_logo.gif"></A>		 <SPAN>Citigroup.com 
+is the global source of information about and access to financial services 
+provided by the Citigroup companies.</SPAN>		 <SPAN 
+class="pull-right copyright">© 2016 Citigroup Inc.</SPAN>	 </DIV><!-- Wipro Footer -->
+	 <!-- <div class="navbar">
+		<div class="navbar-inner">
+			<a href="#" class="pull-right">Back to top</a>
+			<div class="nav-collapse">
+				<ul class="nav">
+					<li><a href="http://www.wipro.com/" target="_blank">Wipro.com</a></li>
+					<li><a href="http://www.wipro.com/disclaimer/" target="_blank">Disclaimer</a></li>
+					<li><a href="http://www.wipro.com/rssfeed/" target="_blank">RSS Feed</a></li>
+					<li><a href="http://www.wipro.com/blogs/" target="_blank">Blog</a></li>
+					<li><a href="http://www.wipro.com/blogs/" target="_blank"></a></li>
+					<li><a href="http://www.wipro.com/wipro-tv/" target="_blank">Wipro TV</a></li>
+					<li><a href="http://www.wipro.com/contact/feedback" target="_blank">Feedback</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div id="copyright">					
+		<span class="pull-right copyright">&copy; Wipro Limited 2015</span>
+	</div>-->
+	 </DIV></DIV></BODY></HTML>
