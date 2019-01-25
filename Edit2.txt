@@ -1,0 +1,70 @@
+<table class="row-fluid">
+		<tbody><tr class="btn-toolbar pull-left">
+			<td class="btn-group">
+				 
+					
+						<a class="btn btn-primary" href="createCustomerData"> <i class="icon-plus"></i>&nbsp;Add Record</a>
+					
+					
+				
+			</td>
+			<td><form name="uploadForm" id="command" action="uploadCustomerData" enctype="multipart/form-data" method="POST">
+					 
+						
+							<button class="btn btn-info btn-lg btn_space" type="button" data-target="#myModal" data-toggle="modal">
+								<i class="icon-upload-alt"></i>&nbsp;
+								Bulk Upload
+						    </button>
+						
+						
+				    
+				    
+				  
+				    
+				    
+				    
+					<div class="modal fade in" id="myModal" role="dialog" style="padding-right: 0px;">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button class="close" onclick="document.location.reload();" type="button" data-dismiss="modal">×</button>
+									<h4 class="modal-title">
+										<i class="icon-upload-alt"></i>&nbsp;
+										Bulk Upload
+									</h4>
+									<h5>
+									<br>
+									<input name="fielRfcUpdate" class="lm-checkbox" id="fielRfcUpdate" onclick="fileRfcUpd()" type="radio">
+									RFC/FIEL
+									</h5>
+									<h5>
+										Select the file to Upload
+									</h5>
+								</div>
+								<div class="modal-body">
+									<input disabled="disabled" id="uploadFile" placeholder="Choose File">
+									<div align="right" class="fileUpload btn">
+										Select File
+										<input name="uploadFile" class="upload" id="fileName" onchange="checkCustomerDataName()" type="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+									</div>
+								</div>
+								<div class="modal-footer bulk-upload-text-align">
+									<button class="btn btn-primary" onclick="UploadCustomerDataCheck()" type="button">
+										Upload
+									</button>
+									<button class="btn btn-default" onclick="document.location.reload();" type="button" data-dismiss="modal">
+										Close
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+				
+					
+				</form> </td>
+			<td>&nbsp;<td>
+		</tr>
+	</tbody></table>
